@@ -1,6 +1,12 @@
+import { useNavigation } from '@react-navigation/native';
 import { ImageBackground, StyleSheet, Text } from 'react-native';
 
 const SplashScreen = () => {
+  const navigation = useNavigation();
+
+  setTimeout(() => {
+    navigation.navigate('SignIn');
+  }, 2000);
   return (
     <ImageBackground
       source={require('../assets/spash.jpg')}
@@ -18,6 +24,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   text: {
     fontSize: 45,
