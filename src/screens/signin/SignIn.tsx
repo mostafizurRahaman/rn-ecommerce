@@ -10,6 +10,7 @@ import {
 import RoundedBtn from '../../components/rounded-btn';
 import FullRoundedBtn from '../../components/full-rounded-btn';
 import { useNavigation } from '@react-navigation/native';
+import { signInWithGoogle } from '../../configs/firebase/google-sign-in';
 
 export default function SignIn() {
   const navigation = useNavigation();
@@ -62,7 +63,10 @@ export default function SignIn() {
             <FullRoundedBtn
               bg="red"
               img={require('../../assets/search.png')}
-              action={() => console.log('logged')}
+              action={async () => {
+                const signInfo = await signInWithGoogle();
+                console.log(signInfo);
+              }}
             />
           </View>
         </View>

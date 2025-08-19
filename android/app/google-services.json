@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "862766985381",
+    "project_id": "rnt-ecommerce",
+    "storage_bucket": "rnt-ecommerce.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862766985381:android:f5ca50f97f8e3f97bfdd4c",
+        "android_client_info": {
+          "package_name": "com.rn_ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862766985381-d0m7naie6eeg0r4oepljhhb84ci88c0e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rn_ecommerce",
+            "certificate_hash": "e9037d44341f935f5a62ac51de71e86ee0f4a6d6"
+          }
+        },
+        {
+          "client_id": "862766985381-ufdoucj0ma4okgb231nbq24kp2hsrf6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWfCKN9paOVfLf1lECblLQVQPfVJtMiUU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862766985381-ufdoucj0ma4okgb231nbq24kp2hsrf6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
